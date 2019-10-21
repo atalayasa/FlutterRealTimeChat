@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CustomButton extends StatelessWidget {
+class RoundedButton extends StatelessWidget {
   final String label;
   final Color backgroundColor;
   final Function navigateTo;
 
-  CustomButton({this.label, this.backgroundColor, this.navigateTo});
+  RoundedButton({this.label, this.backgroundColor, this.navigateTo});
 
   @override
   Widget build(BuildContext context) {
